@@ -1,0 +1,32 @@
+/* Home.css */
+
+/* Style for responsive images */
+.responsive-image {
+    height: auto;
+    width: 100%; /* Ensure the image takes up full width */
+    object-fit: cover; /* Ensure the image maintains aspect ratio and fills the space */
+  }
+  
+  /* Mobile screens */
+  @media (max-width: 768px) {
+    .responsive-image {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }
+  
+  /* Tablet screens */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .responsive-image {
+      height: 350px; /* Adjust height for tablet screens */
+    }
+  }
+  
+  /* Desktop screens */
+  @media (min-width: 1024px) {
+    .responsive-image {
+      height: 200px; /* Default height for larger screens */
+    }
+  }
+
+  
+  
