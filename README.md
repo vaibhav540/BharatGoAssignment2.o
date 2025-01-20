@@ -27,9 +27,9 @@ To run the application locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/vaibhav540/Company-Assignment-BharatGo.git
+   https://github.com/vaibhav540/BharatGoAssignment2.o.git
 
-   cd Company-Assignment-BharatGo
+   cd BharatGoAssignment2.o
 
    npm install
 
